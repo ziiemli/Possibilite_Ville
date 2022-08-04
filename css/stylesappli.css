@@ -1,0 +1,120 @@
+.slidershow 
+{
+	width: 960px;
+	height: 540px;
+	overflow: hidden;
+}
+
+.middle
+{
+	position: relative;
+	margin-top: 300px;
+	left: 50%;
+	transform : translate(-50%, -50%);
+	
+}
+
+.navigation
+{
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar
+{
+	width: 30px;
+	height: 10px;
+	border: 1px solid black;
+	margin: 4px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+input[name="r"]
+{
+	position: absolute;
+	visibility: hidden;
+}
+
+.bar:hover
+{
+	background: black;
+}
+
+.slides
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.slide
+{
+	width: 100%;
+	transition: 1.2s;
+}
+
+.slide img 
+{
+	width: 960px;
+	height: 540px;
+
+}
+
+#r1:checked ~ .s1
+{
+	margin-left: 0;
+}
+
+#r2:checked ~ .s1
+{
+	margin-left: -100%;
+}
+
+#r3:checked ~ .s1
+{
+	margin-left: -200%;
+}
+
+#r4:checked ~ .s1
+{
+	margin-left: -300%;
+}
+
+#r5:checked ~ .s1
+{
+	margin-left: -400%;
+}
+
+#r6:checked ~ .s1
+{
+	margin-left: -500%;
+}
+
+#r7:checked ~ .s1
+{
+	margin-left: -600%;
+}
+
+#r8:checked ~ .s1
+{
+	margin-left: -700%;
+}
+
+#r9:checked ~ .s1
+{
+	margin-left: -800%;
+}
+
+#r10:checked ~ .s1
+{
+	margin-left: -900%;
+}
+
+#r11:checked ~ .s1
+{
+	margin-left: -1000%;
+}

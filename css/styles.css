@@ -1,0 +1,65 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+header
+{
+	margin-top: 35px;
+	text-align: center;
+}
+
+nav.menu-nav 
+{
+	margin-top: 35px;
+	background-color: grey;
+	padding: 10px;
+}
+
+.bouton
+{
+	margin-left: 100px;
+}
+
+nav.menu-nav li.btn
+{
+	display: inline-block;
+}
+
+nav.menu-nav li.btn a
+{
+	color: white;
+	text-decoration: none;
+	background: black;
+	padding: 10px;
+	font-size: 20px;
+}
+
+nav.menu-nav li.btn:hover a
+{
+	color: black;
+	background-color: grey;
+	transition: 1s all;
+}
+
+.intro
+{
+	margin-left: 115px; 
+	margin-top: 60px;
+}
+
+#enj
+{
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#langogne
+{
+	margin-top: 20px;
+}
+
+
+
+
+
